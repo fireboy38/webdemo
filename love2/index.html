@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Our Love Story</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('http://fireboyslove.oss-cn-shenzhen.aliyuncs.com/Love-master/digital-7_mono.ttf') format("truetype");
+		}
+	</style>
+	<link href="http://fireboyslove.oss-cn-shenzhen.aliyuncs.com/Love-master/css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="http://fireboyslove.oss-cn-shenzhen.aliyuncs.com/Love-master/js/jquery.js"></script>
+	<script type="text/javascript" src="http://fireboyslove.oss-cn-shenzhen.aliyuncs.com/Love-master/js/garden.js"></script>
+    <script type="text/javascript" src="http://fireboyslove.oss-cn-shenzhen.aliyuncs.com/Love-master/js/functions.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="comments">你不需要刻意的来迁就我，你不需要那么辛苦的，</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">无论什么事，我都会尊重你，不会勉强你。</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">你不喜欢去的地方，我不会带着你去；</span><br />
+				<span class="comments"></span><br />
+			    <span class="comments">你不喜欢做的事，我不会逼你；</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">你不喜欢我任性，我不会再任性；</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">当你不想我烦着你的时候，我会静静的站在一旁，</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">我送你的礼物，你不喜欢，我不会勉强你。</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">你可以把我当成一个值得信任的人，</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">当你开心的时候，让我也一起开心。</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">你可以把我当成一个值得信任的人，</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">当你不开心的时候，让我和你一起分担。 </span><br />
+				<span class="comments"></span><br />
+				<span class="comments">我只是会静静的守候在你身边，不离不弃。</span><br />
+				<span class="comments"></span><br />
+				<span class="comments">我只是会静静的守候在你身边，一生一世。</span><br />
+				
+			
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						我喜欢你，李娟。
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br/>
+						<div class="signature">- 刁帅</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
+			Copyright © 2011 <a href='http://www.diaoxiaoshuai.com'>刁帅</a> 2014-2015
+		</div>
+	</div>
+	<audio id="bgmMusic" src="http://fireboyslove.oss-cn-shenzhen.aliyuncs.com/music%2Flovebgm.mp3" autoplay="autoplay" loop preload="auto" type="audio/mp3"></audio>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2014, 10, 6);
+		together.setHours(20);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 5000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>
