@@ -1,4 +1,4 @@
-﻿jQuery.extend({
+jQuery.extend({
     easing: {
         backEaseIn: function(e, g, a, d) {
             var f = a + d;
@@ -841,68 +841,68 @@ var hoverEffect = true;
 var searchEngine = "sogou";
 var numberOfScreens = 1;
 var blockName = new Array();
-blockName[1] = "自贡市人民法院业务导航";
+blockName[1] = "自贡市教育云平台综合管理业务导航";
 
 var bookmark = new Array();
 bookmark[0] = new Array();
 
 bookmark[0][0] = {
-    title: "全国法院司法协助管理平台（外事）",
-    url: "http://192.0.0.206:8080/sffzpt",
-    thumb: "sifaxiezhu2.png"
+    title: "BlueValley Cache",
+    url: "https://10.0.0.4/login.html",
+    thumb: "redianhuancun.png"
 };
 bookmark[0][1] = {
-    title: "全国法院司法协助管理平台（港澳台）",
-    url: "http://192.0.0.207:8080/sffzptgn",
-    thumb: "sifaxiezhu1.png"
+    title: "H3C审计安全管理中心",
+    url: "http://10.0.0.3/SecCenter/",
+    thumb: "h3cshenji.png"
 };
 bookmark[0][2] = {
-    title: "四川法院教育培训网",
-    url: "http://150.0.2.132:8080/jypx/index.htm",
-    thumb: "xueyuan.png"
+    title: "备份软件",
+    url: "http://10.0.1.9/webapp",
+    thumb: "beifen.png"
 };
 bookmark[0][3] = {
-    title: "法律法规",
-    url: "http://150.27.0.44/claw/chinalaw.asp",
-    thumb: "falvfagui.png"
+    title: "杀毒软件",
+    url: "http://www.360.cn",
+    thumb: "shadu.png"
 };
 bookmark[0][4] = {
-    title: "全国执行案件暂存款清理",
-    url: "http://192.0.101.57:8080/zck/login.jsp",
-    thumb: "zancunkuan.png"
+    title: "网动统一通信平台",
+    url: "http://10.1.12.242:8080/acenter/index.action",
+    thumb: "wangdong.png"
 };
 bookmark[0][5] = {
-    title: "OA办公系统",
-    url: "http://150.30.0.5:8081/portal",
-    thumb: "oa.png"
+    title: "自贡教育运维中心",
+    url: "http://10.0.1.242",
+    thumb: "yunweizhongxin.png"
 };
 bookmark[0][6] = {
-    title: "全国法院网络执行查控系统",
-    url: "https://192.2.102.88/login.jsp",
-    thumb: "quanguozhixing.png"
+    title: "h3ccas云计算管理平台",
+    url: "http://10.0.1.2:8080/cas",
+    thumb: "h3ccas.png"
 };
 bookmark[0][7] = {
-    title: "执行司法查控系统V2.0",
-    url: "http://150.30.0.12:8080/ckw/",
-    thumb: "sifa2.png"
+    title: "H3CIMC智能管理中心",
+    url: "http://10.0.0.2:8080/imc/",
+    thumb: "h3cimc1.png"
 };
 bookmark[0][8] = {
-    title: "执行司法查控系统V3.0",
-    url: "http://150.0.2.136:8082/ckw/",
-    thumb: "sifa3.png"
+    title: "H3CIMC用户自助服务中心",
+    url: "http://10.0.0.2:8080/selfservice/login.jsf",
+    thumb: "h3cimc2.png"
 };
 bookmark[0][9] = {
-    title: "法院审判管理信息系统",
-    url: "http://150.30.0.5:8489/court/",
-    thumb: "shenban.png"
+    title: "易云虚拟化管理平台",
+    url: "http://10.0.1.50/ovirt-engine/",
+    thumb: "yiyun.png"
 };
 bookmark[0][10] = {
-    title: "鉴定评估拍卖系统",
-    url: "http://150.0.2.133:8080/wtpm/",
-    thumb: "paimai.png"
+    title: "校园监控综合管理平台",
+    url: "http://10.0.1.152",
+    thumb: "jiankong.png"
 };
 bookmark[0][11] = {
-    title: "管理中心",
+    title: "消防检测中心",
     url: "http://150.30.0.56/admin/",
-    thumb: "admin.png"
+    thumb: "xiaofang.png"
 };
