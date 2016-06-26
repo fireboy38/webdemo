@@ -841,35 +841,35 @@ var hoverEffect = true;
 var searchEngine = "sogou";
 var numberOfScreens = 1;
 var blockName = new Array();
-blockName[1] = "自贡市法院管理中心";
+blockName[1] = "自贡市人民法院业务导航";
 
 var bookmark = new Array();
 bookmark[0] = new Array();
 
 bookmark[0][0] = {
-    title: "科技法庭",
-    url: "http://150.30.4.253/cms/login.jsp",
-    thumb: "huaxia.png"
+    title: "全国法院司法协助管理平台（外事）",
+    url: "http://192.0.0.206:8080/sffzpt",
+    thumb: "sifaxiezhu2.png"
 };
 bookmark[0][1] = {
-    title: "虚拟化管理中心",
-    url: "https://150.30.0.50",
-    thumb: "vcenter.png"
+    title: "全国法院司法协助管理平台（港澳台）",
+    url: "http://192.0.0.207:8080/sffzptgn",
+    thumb: "sifaxiezhu1.png"
 };
 bookmark[0][2] = {
-    title: "杀毒软件",
-    url: "http://150.30.0.59",
-    thumb: "shaduruanjian.png"
+    title: "四川法院教育培训网",
+    url: "http://150.0.2.132:8080/jypx/index.htm",
+    thumb: "xueyuan.png"
 };
 bookmark[0][3] = {
-    title: "软件中心",
-    url: "http://150.30.0.56/disk/",
-    thumb: "soft.png"
+    title: "法律法规",
+    url: "http://150.27.0.44/claw/chinalaw.asp",
+    thumb: "falvfagui.png"
 };
 bookmark[0][4] = {
-    title: "综合监控管理平台",
-    url: "http://150.110.0.56/admin/",
-    thumb: "jiankong.png"
+    title: "全国执行案件暂存款清理",
+    url: "http://192.0.101.57:8080/zck/login.jsp",
+    thumb: "zancunkuan.png"
 };
 bookmark[0][5] = {
     title: "OA办公系统",
@@ -877,9 +877,9 @@ bookmark[0][5] = {
     thumb: "oa.png"
 };
 bookmark[0][6] = {
-    title: "评价系统",
-    url: "http://150.110.0.56/admin/",
-    thumb: "pingjia.png"
+    title: "全国法院网络执行查控系统",
+    url: "https://192.2.102.88/login.jsp",
+    thumb: "quanguozhixing.png"
 };
 bookmark[0][7] = {
     title: "执行司法查控系统V2.0",
@@ -902,7 +902,7 @@ bookmark[0][10] = {
     thumb: "paimai.png"
 };
 bookmark[0][11] = {
-    title: "业务中心",
-    url: "http://150.30.0.56/",
-    thumb: "yewu.png"
+    title: "管理中心",
+    url: "http://150.30.0.56/admin/",
+    thumb: "admin.png"
 };
