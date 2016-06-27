@@ -883,7 +883,7 @@ bookmark[0][6] = {
 };
 bookmark[0][7] = {
     title: "H3CIMC智能管理中心",
-    url: "http://10.0.0.2:8080/imc/",
+    url: "http://10.0.0.2:8080/imc/login.jsf",
     thumb: "h3cimc1.png"
 };
 bookmark[0][8] = {
